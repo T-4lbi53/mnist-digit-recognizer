@@ -43,7 +43,7 @@ we have a n amount of pictures so we can represent this :
             ↑
        Each row is a flattened 28×28 image
 
-Now the above matric we need to transpouse, this is done because when we multiply with the weight matrix and add the bias (Z=W⋅X+b), it is better(some algebra big brain i do nok know, i fail the algebra in school)
+Now the above matric we need to transpouse, this is done because when we multiply with the weight matrix and add the bias (Z=W⋅X+b), it is better(some algebra big brain i do not know, i fail the algebra in school)
 
 
 And we need to build the neuron network, and it will consist of 3 layers (0,1,2),
