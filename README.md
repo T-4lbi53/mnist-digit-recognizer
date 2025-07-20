@@ -135,7 +135,7 @@ Compute derivative of loss w.r.t. Z using the chain rule:
     Matrix shapes: careful alignment is critical in NumPy (use .T wisely!)
 
 
-!!(well this is what ghat-gpt told me -_-, its not too nice. but this is not so hard just go whatch a yt video or reas somewere for this)
+!!(well this is what chat-gpt told me -_-, its not too nice. but this is not so hard just go whatch a yt video or reas somewere for this)
 
 And finally Update parameters:
 Here the network is optimizing its weights and biases to "learn"
@@ -172,9 +172,11 @@ You code the description of what you expect from this model, how he should behav
 And then you give you're  untrained model and the description of how its suposed to behave to a learning process, and it just moves the weight and biases around untill it fits you're description well enought.
 This with a certant probability, because it will never be perfect.
 
+
+
 You can model anything, as long as you have enought data!!
 
 And this is the reason I write "learn", beacause the model its not learning(human prespective). Its just predictiong with a very scary accuracy!
 
-
+This is so amazing!!!!
 
