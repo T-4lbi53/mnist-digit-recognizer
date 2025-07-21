@@ -43,7 +43,7 @@ we have a n amount of pictures so we can represent this :
             ↑
        Each row is a flattened 28×28 image
 
-Now the above matric we need to transpouse, this is done because when we multiply with the weight matrix and add the bias (Z=W⋅X+b), it is better(some algebra big brain i do not know, i fail the algebra in school)
+Now the above matric we need to transpouse, this is done because  we multiply with the weight matrix and add the bias (Z=W⋅X+b), 
 
 
 And we need to build the neuron network, and it will consist of 3 layers (0,1,2),
@@ -79,7 +79,6 @@ Example: n1=1, and all the others will be 0(n2, n3, n4 ..... = 0), this is just 
 
 Backpropagation is the algorithm that lets a neural network learn from its mistakes. After the network makes predictions in the forward pass, backpropagation is how it adjusts its weights to do better next time — using a method called gradient descent.
 
-Now this is the beauty part(not really this envolves derivates and remember i fail algebra, but also calculus -_- )
 
 Here we start from the end, first we see how much we miss the actuall label(label means the actual number that we had to guesst), than we see how much each weight and bias
 contributed to that error. Here we need partial derivatives!
@@ -135,7 +134,6 @@ Compute derivative of loss w.r.t. Z using the chain rule:
     Matrix shapes: careful alignment is critical in NumPy (use .T wisely!)
 
 
-!!(well this is what chat-gpt told me -_-, its not too nice. but this is not so hard just go whatch a yt video or reas somewere for this)
 
 And finally Update parameters:
 Here the network is optimizing its weights and biases to "learn"
@@ -153,9 +151,8 @@ b2 = b2 - alpha * db2
 here alpha is the learning rate this is  called a hyperparameter, it has no connection with any variable in our network(constante).and usually we take this pretty small!
 
  
-And this is the theoritical part, we simply do this in a loop, and the model will "learn", this is too fucking beautifull and elegant.
+And this is the theoritical part, we simply do this in a loop, and the model will "learn",
 
-ps: i have not faild the algebra nor the calculus!!!
 
 And a few more line for the general idea of ML:
 
